@@ -1,0 +1,85 @@
+h1 {
+ font-style: Verdana;
+ text-align: center;
+ font-size: 30px;
+ /*text-shadow: 3px 2px grey;*/
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #232f34;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #3700b3;
+}
+ul:nth-child(3):hover {
+background-color: #3700b3;
+}
+li {
+  border-right: 1px solid #bbb;
+}
+li:last-child {
+  border-right: none;
+}
+.Heading {
+  font-style: Verdana;
+  text-align: left;
+  margin-left: 10px;
+  font-size: 20px;  
+}
+.box {
+  /* margin-top: 125px; */
+  width: 100%;
+  height: 75%;
+  border:1px solid black;
+  background-color:#ffdaee;
+}
+.inbox {
+  /*margin-top: 125px; */
+  text-align: left;
+  width: 100%;
+  height: 50%;
+  border:1px solid black;
+}
+.button {
+  display: flex;
+  align-content: stretch;
+  background-color: #d8d9db;
+    color: black;
+    height: 45px;
+    width: 75px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: inherit;
+    cursor: pointer;
+    text-align: center;
+}
+.button:hover {
+	background-color:#95A5A6;
+}
+.button:active {
+	background-color:#34495E;
+}
+.footer {
+  background-color: #232f34;
+  text-align: left;
+  padding: 10px;
+ margin-top:280px;
+ color :white;
+}
