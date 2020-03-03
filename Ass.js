@@ -36,7 +36,7 @@ var out2= accessCookie("o2");
 console.log("Lang1 = "+Lang1);
 console.log("Lang2 = "+Lang2);
 
-if(text1!=""||text2!="")
+if(text1!=""|| text2!=""|| out1!="" || out2!="")
 {
 
 var select1 = document.getElementById("cl1");
