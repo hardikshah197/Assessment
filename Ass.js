@@ -5,10 +5,10 @@ console.log("creating cookie");
 
 var select1 = document.getElementById("cl1").value;
 var select2= document.getElementById("cl2").value;
-var text1 = document.getElementById("tb1").value;
-var text2= document.getElementById("tb2").value;
-var out1 = document.getElementById("out1").value;
-var out2= document.getElementById("out2").value;
+var text1 = document.getElementById("tb1").innerText;
+var text2= document.getElementById("tb2").innerText;
+var out1 = document.getElementById("out1").innerText;
+var out2= document.getElementById("out2").innerText;
 
 console.log("select1= "+select1);
 
