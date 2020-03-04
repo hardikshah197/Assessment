@@ -46,7 +46,6 @@ li:last-child {
 .box {
   /* margin-top: 125px; */
   width: 100%;
-  height: 75%;
   border:1px solid black;
   background-color:#ffdaee;
 }
