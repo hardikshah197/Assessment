@@ -10,8 +10,8 @@ console.log("creating cookie");
 
 console.log("select1= "+select1);
 
-createCookie("L1",select1.value,0.5);
-createCookie('L2',select2.value,0.5);
+createCookie("L1",select1.selectedIndex,0.5);
+createCookie('L2',select2.selectedIndex,0.5);
 createCookie("tb1",text1.innerHTML,0.5);
 createCookie('tb2',text2.innerHTML,0.5);
 createCookie("o1",out1.innerHTML,0.5);
@@ -37,8 +37,8 @@ console.log("Lang2 = "+Lang2);
 if(tex1!=""|| tex2!=""|| ou1!="" || ou2!="")
 {
   
-select1.value = Lang1;
-select2.value = Lang2;
+select1.selectedIndex = Lang1;
+select2.selectedIndex = Lang2;
 text1.innerHTML= tex1;
 text2.innerHTML = tex2;
 out1.innerHTML= ou1;
