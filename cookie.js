@@ -21,18 +21,18 @@ function accessCookie(cname) {
   return "";
 }
 
-function checkCookie()
-        {
-          var user = accessCookie("testCookie");
-          if (user!="")
-        	alert("Welcome Back " + user + "!!!");
-          else
-          {
-            user = prompt("Please enter your name");
-            num = prompt("How many days you want to store your name on your computer?");
-            if (user!="" && user!=null)
-            {
-            createCookie("testCookie", user, num);
-            }
-          }
-        }
+// function checkCookie()
+//         {
+//           var user = accessCookie("testCookie");
+//           if (user!="")
+//         	alert("Welcome Back " + user + "!!!");
+//           else
+//           {
+//             user = prompt("Please enter your name");
+//             num = prompt("How many days you want to store your name on your computer?");
+//             if (user!="" && user!=null)
+//             {
+//             createCookie("testCookie", user, num);
+//             }
+//           }
+//         }
