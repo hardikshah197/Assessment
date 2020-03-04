@@ -39,10 +39,10 @@ if(tex1!=""|| tex2!=""|| ou1!="" || ou2!="")
   
 select1.selectedIndex = Lang1;
 select2.selectedIndex = Lang2;
-text1.innerHTML= tex1;
-text2.innerHTML = tex2;
-out1.innerHTML= ou1;
-out2.innerHTML = ou2;
+text1.value= tex1;
+text2.value = tex2;
+out1.value= ou1;
+out2.value = ou2;
 }
 }
 
